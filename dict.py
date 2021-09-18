@@ -1,9 +1,5 @@
-city_dict = {}
-while True:
-    try:
-        name, code = input().split('\t')
-        city_dict[name] = code
-    except:
-        break
+n = {}
+for i,v in dict.items:
+    n[v] = i
 
-print(city_dict)
+print(n)
